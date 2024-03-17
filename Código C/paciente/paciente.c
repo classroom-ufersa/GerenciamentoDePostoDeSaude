@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct paciente{
+struct paciente{
     char nome[50];
     int idade;
     char enfermidade[100];
