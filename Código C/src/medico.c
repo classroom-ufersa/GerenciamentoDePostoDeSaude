@@ -20,4 +20,19 @@ void coletarDadosMedico(Medico* medico){
         exit(1);
     }
 
+    printf("Digite o nome do médico: ");
+    fgets(medico->nome, sizeof(medico->nome), stdin);
+    medico->nome[strcspn(medico->nome, "\n")] = '\0';
+
+    printf("Digite a especialidade do médico: ");
+    fgets(medico->especialidade, sizeof(medico->especialidade), stdin);
+    medico->especialidade[strcspn(medico->especialidade, "\n")] = '\0';
+
+    printf("Digite o CRM do médico: ");
+    scanf("%d", &medico->CRM);
+
+    //limpa o buffer do teclado
+    while (getchar() != '\n');
+
+    fclose(arquivo);
 }

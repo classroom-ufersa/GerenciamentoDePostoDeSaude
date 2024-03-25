@@ -8,6 +8,7 @@ int main(void){
     Medico medico;
     char escolha;
     char verificarescolha[50];
+    int ordem = 0;
     
     do
     {   
