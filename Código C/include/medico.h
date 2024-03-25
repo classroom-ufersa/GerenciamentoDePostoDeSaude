@@ -5,4 +5,3 @@
 
 typedef struct medico Medico;
 
-void RegistrarMedico(Medico *medico, char *Arquivo);

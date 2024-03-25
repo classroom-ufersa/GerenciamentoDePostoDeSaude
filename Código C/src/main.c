@@ -1,7 +1,7 @@
-#include "medico/medico.h"
-#include "paciente/paciente.h"
-#include "medico/medico.c"
-#include "paciente/paciente.c"
+#include "include/medico.h"
+#include "include/paciente.h"
+#include "medico.c"
+#include "paciente.c"
  
 int main(void){
     
@@ -32,7 +32,7 @@ int main(void){
             int tecla;
             case '1':
                 system("cls");
-                RegistrarMedico(&medico, &ArquivoMedico);
+
                 printf("nla\n");
             break;
 
