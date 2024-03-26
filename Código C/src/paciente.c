@@ -10,7 +10,7 @@ struct paciente{
     char historico_medico[100];
 };
 
-void coletarDadosPaciente(Paciente* paciente){
+void AdicionarPaciente(Paciente* paciente){
 
     FILE* arquivo = fopen(ArquivoPaciente, "a");
     
@@ -20,22 +20,19 @@ void coletarDadosPaciente(Paciente* paciente){
     }
 
     printf("Digite o nome do paciente: ");
-    fgets(paciente->nome, sizeof(paciente->nome), stdin);
-    paciente->nome[strcspn(paciente->nome, "\n")] = '\0';
+    scanf("%s", paciente->nome); 
 
     printf("Digite a idade do paciente: ");
     scanf("%d", &paciente->idade);
 
-    //limpa o buffer do teclado
-    while (getchar() != '\n');
-
     printf("Digite a enfermidade do paciente: ");
-    fgets(paciente->enfermidade, sizeof(paciente->enfermidade), stdin);
-    paciente->enfermidade[strcspn(paciente->enfermidade, "\n")] = '\0';
+    scanf("%s", paciente->enfermidade);
 
     printf("Digite o historico medico do paciente: ");
-    fgets(paciente->historico_medico, sizeof(paciente->historico_medico), stdin);
-    paciente->historico_medico[strcspn(paciente->historico_medico, "\n")] = '\0';
+    scanf("%s", paciente->historico_medico);
+
+    fprintf(arquivo, "%s %d %s %s\n", paciente->nome, paciente->idade, paciente->enfermidade, paciente->historico_medico);
 
     fclose(arquivo);
 }
+

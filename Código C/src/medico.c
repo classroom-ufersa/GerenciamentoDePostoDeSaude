@@ -7,11 +7,11 @@
 struct medico{
     char nome[40];
     char especialidade[30];
-    int CRM;
+    int crm;
     Paciente* pacientes;
 };
 
-void coletarDadosMedico(Medico* medico){
+void RegistrarMedico(Medico* medico){
 
     FILE* arquivo = fopen(ArquivoMedico, "a");
     
@@ -21,18 +21,17 @@ void coletarDadosMedico(Medico* medico){
     }
 
     printf("Digite o nome do médico: ");
-    fgets(medico->nome, sizeof(medico->nome), stdin);
-    medico->nome[strcspn(medico->nome, "\n")] = '\0';
+    scanf("%s", medico->nome);
 
     printf("Digite a especialidade do médico: ");
-    fgets(medico->especialidade, sizeof(medico->especialidade), stdin);
-    medico->especialidade[strcspn(medico->especialidade, "\n")] = '\0';
+    scanf("%s", medico->especialidade);
 
     printf("Digite o CRM do médico: ");
-    scanf("%d", &medico->CRM);
+    scanf("%d", &medico->crm);
 
-    //limpa o buffer do teclado
-    while (getchar() != '\n');
-
+    fprintf(arquivo, "%s %s %d %s \n", medico->nome, medico->especialidade, medico->crm, medico->pacientes->nome);
+    printf("Novo medico adicionado!\n");
     fclose(arquivo);
 }
+
+

@@ -7,4 +7,4 @@
 typedef struct paciente Paciente;
 
 //Função para coletar os dados dos pacientes
-void coletarDadosPaciente(Paciente* paciente);
+void AdicionarPaciente(Paciente* paciente);

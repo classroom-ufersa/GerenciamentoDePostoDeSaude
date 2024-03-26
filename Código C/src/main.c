@@ -14,13 +14,14 @@ int main(void){
     {   
         printf("====MENU====\n\n");
         printf("1 - Registar medico\n");
-        printf("2 - Consultar paciente\n");
-        printf("3 - Remover medico\n");
-        printf("4 - Remover paciente\n");
-        printf("5 - Editar informacoes do paciente\n");
-        printf("6 - Buscar paciente\n");
-        printf("7 - Listar medicos e seus pacientes\n");
-        printf("8 - Sair do programa\n\n");
+        printf("2 - Adicionar paciente\n");
+        printf("3 - Consultar paciente\n");
+        printf("4 - Remover medico\n");
+        printf("5 - Remover paciente\n");
+        printf("6 - Editar informacoes do paciente\n");
+        printf("7 - Buscar paciente\n");
+        printf("8 - Listar medicos e seus pacientes\n");
+        printf("9 - Sair do programa\n\n");
         printf("============\n");
        
         printf("escolha: ");
@@ -33,12 +34,13 @@ int main(void){
             int tecla;
             case '1':
                 system("cls");
-
+                RegistrarMedico(&medico);
                 printf("nla\n");
             break;
 
             case '2':
                 system("cls");
+                AdicionarPaciente(&medico);
                 printf("\n");
             break;
 
