@@ -1,5 +1,5 @@
-#include "/home/everson/Área de Trabalho/correção/everson/GerenciamentoDePostoDeSaude/Código C/include/medico.h"
-#include "/home/everson/Área de Trabalho/correção/everson/GerenciamentoDePostoDeSaude/Código C/include/paciente.h"
+#include "/home/everson/Área de Trabalho/GerenciamentoDePostoDeSaude/Código C/include/medico.h"
+#include "/home/everson/Área de Trabalho/GerenciamentoDePostoDeSaude/Código C/include/paciente.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

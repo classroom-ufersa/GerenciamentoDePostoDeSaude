@@ -1,0 +1,10 @@
+Nome do medico: BRENO   Especialidade: CIRURGIAO   Crm: 9293
+pacientes: 
+Nome: BRAYAN  Idade: 83  Enfermidade: GRIPE  Historico: BOM
+Nome: LUIZ  Idade: 99  Enfermidade: GRIPE  Historico: BOM
+Nome: LAILSON  Idade: 33  Enfermidade: CABA  Historico: BOM
+
+Nome do medico: LUIZ   Especialidade: CLINICO   Crm: 1819435365
+pacientes: 
+Nome: EVERSON ALISSON  Idade: 19  Enfermidade: AMAR DEMAIS  Historico: PESSIMO
+Nome: TOBIAS  Idade: 11  Enfermidade: CABACO  Historico: RUIM
