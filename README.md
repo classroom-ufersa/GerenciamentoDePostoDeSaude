@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=FFFFFF"/>
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=35&center=true&vCenter=true&width=1000&lines=Gerenciamento+de+Posto+de+Saúde;Éverson+Alisson+e+Luiz+Eduardo+:%29)](https://git.io/typing-svg)
 
 <h1 align="center">Grupo 18: Gerenciamento de Posto de Saúde</h1>
@@ -15,7 +17,7 @@
 ![C](https://img.shields.io/badge/C-007ACC?style=for-the-badge&logo=C&logoColor=white)&nbsp;
 
 Neste arquivo você verá:
-- [Linguagem](#2.0-Linguagem)
+- [Linguagem](#1.0-IA's-utilizadas)
 - [Introdução](#2.0-Introdução)
 - [Problemática](#3.0-problemática)
 - [Descrição](#4.0-descrição)
@@ -26,8 +28,14 @@ Neste arquivo você verá:
 - [Funções em tratativas](#9.0--funções-em-tratativas)
 - [Funções em main](#10.0-funções-em-main)
 
-## **1.0-Linguagem**
-![C](https://img.shields.io/badge/C-007ACC?style=for-the-badge&logo=C&logoColor=white)&nbsp;
+## **1.0-IA's utlizada**
+
+### As IA's foram usadas em nosso código com o intuito de tirar dúvidas sobre funções, comandos e etc.
+
+- **ChatGPT**: O ChatGPT é um modelo de linguagem desenvolvido pela OpenAI, projetado para interagir e responder a perguntas em linguagem natural, com base em um amplo conjunto de dados.
+
+- **Github Copilot**: O GitHub Copilot é uma ferramenta de programação baseada em inteligência artificial, desenvolvida pela GitHub e pela OpenAI. Ele fornece sugestões de código em tempo real enquanto você escreve, usando modelos de linguagem avançados para aumentar a produtividade dos desenvolvedores.
+
 
 ## **2.0-Introdução**
 A administração de um posto de saúde é essencial para assegurar seu funcionamento adequado e eficiente, envolvendo a gestão dos pacientes e dos médicos. Um sistema de gerenciamento dedicado para postos de saúde é desenvolvido com o objetivo de simplificar todas as operações necessárias para o funcionamento da instituição.
@@ -270,3 +278,5 @@ int VerificanumInt(int *nome);```
 ```c
 void menu();
 ```
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=FFFFFF&section=footer"/>
