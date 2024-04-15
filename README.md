@@ -206,4 +206,12 @@ void NovoPacienteTxt(ListaPaciente **lista, char *nome, int idade, char *enfermi
 
 ## **9.0-Funções em Tratativas**
 
+### Função verificarApenasLetras
+
+- **Descrição:** Esta função carrega os dados dos pacientes presentes no banco de dados(dados.txt).
+
+```c
+int verificarApenasLetras(char* nome);
+```
+
 ## **10.0-Funções em main**

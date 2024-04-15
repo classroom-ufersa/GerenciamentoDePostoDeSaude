@@ -3,8 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-// Função para verificar se a string contém apenas letras
-int verificarApenasLetras(char* nome);
 
 // Função para verificar se a string contém caracteres especiais
 int verificaCaracterEspecial (char* nome);
