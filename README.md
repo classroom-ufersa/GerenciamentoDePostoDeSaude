@@ -206,12 +206,67 @@ void NovoPacienteTxt(ListaPaciente **lista, char *nome, int idade, char *enfermi
 
 ## **9.0-Funções em Tratativas**
 
-### Função verificarApenasLetras
+### Função verificaCaracterEspecial
 
-- **Descrição:** Esta função carrega os dados dos pacientes presentes no banco de dados(dados.txt).
+- **Descrição:** Esta função vai verrificar se há algum caractere especial, exceto 'espaço'.
 
 ```c
-int verificarApenasLetras(char* nome);
+int verificaCaracterEspecial (char* nome);
 ```
 
+### Função passarMaiuscula
+
+- **Descrição:** Esta função alterar todas as letras para maiúscula.
+
+```c
+void passarMaiuscula(char *nome);
+```
+
+### Função verificaEscolha
+
+- **Descrição:** Esta função é usada para verificar se o usuário escolheu apenas as opções contidas no menu.
+
+```c
+char verificaEscolha(char escolha);
+```
+
+### Função menu
+
+- **Descrição:** Esta função cria o menu principal do código.
+
+```c
+void menu();
+```
+
+### Função Verificanum
+
+- **Descrição:** Esta função verifica se tem número na string que o usuário digitou.
+
+```c
+int Verificanum(char* nome);
+```
+
+### Função Verificachar
+
+- **Descrição:** Esta função vai unir as funções Verificanum e verificaCaracterEspecial.
+
+```c
+int Verificachar(char* nome);
+```
+
+### Função VerificanumInt
+
+- **Descrição:** Esta função vai verirficar se o que o usuário digitou não contém letras ou caracteres especiais.
+
+```c
+int VerificanumInt(int *nome);```
+
 ## **10.0-Funções em main**
+
+### Função menu
+
+- **Descrição:** Esta função cria o menu principal do código.
+
+```c
+void menu();
+```
