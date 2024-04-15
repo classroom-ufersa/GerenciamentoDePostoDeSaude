@@ -85,6 +85,7 @@ A organização desse repositório está disposta da seguinte forma:
         │
         ├──medico.h
         ├──paciente.h
+        ├──funcoes.h
 │
 └─── src
         │
